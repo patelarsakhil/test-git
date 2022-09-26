@@ -1,0 +1,164 @@
+
+.nav{
+    position: fixed;
+    padding: 30px;
+    margin-top: -28px;
+    width: 100%;
+    height: 5px;
+    border: 0.1px solid rgb(221, 217, 221);
+    background-color: white;
+}
+
+.coins{
+    position: absolute;
+    font-size: 15px;
+    margin: -10px 30px 0px -250px;
+    color: rgb(110, 110, 107);
+}
+.exchange{
+    position: absolute;
+    font-size: 15px;
+    margin:  -10px 0px 0px -180px;
+    color: rgb(110, 110, 107);
+}
+.swap{
+    position: absolute;
+    font-size: 15px;
+    margin: -10px 0px 0px -80px;
+    color: rgb(110, 110, 107);
+}
+/*----------------------------------------------------------*/
+.coin-map{
+    margin: -30px 100px 90px 250px;
+    position: relative;
+    height: 2.5rem;
+    width: 5.5rem;
+}
+
+.coinLogo{
+    
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+}
+
+.search{
+    position: relative;
+    margin: 0px 0px 100px 150px;
+    
+}
+.setting{
+    position: relative;
+    margin: 0px 0px 100px 50px;
+}
+
+.connect-wallet{
+    padding: 10px 30px;
+    position: absolute;
+    margin: -10px 0px 0px 60px;
+    border-radius: 30px;
+    border-width: 0px;
+    color: white;
+    background-color: rgb(76, 208, 76);
+}
+
+/*----------------------------------------------------------*/
+
+
+.header-section{
+  width: 100%;
+  min-height: 280px;
+  background-color: rgb(75, 77, 224);
+}
+
+.market-cap{
+     margin-left: -80%;
+     padding: 60px;
+     color: rgb(201, 208, 213);
+     
+}
+#content1::after{
+    content: "\a";
+    white-space: pre;
+    
+}
+#content2::after{
+    color: rgb(97, 100, 103);
+    margin-left: 10px;
+    
+}
+
+.exchange-volume{
+  margin-left: -46%;
+  margin-top: -125px;
+  color: rgb(201, 208, 213);
+  
+}
+.assets{
+    margin-left: -16%;
+    margin-top: -65px; 
+    color: rgb(201, 208, 213);
+}
+.exchanges{
+    margin-left: 14%;
+    margin-top: -66px;
+    color: rgb(201, 208, 213);
+    
+}
+.markets{
+    margin-left: 46%;
+    margin-top: -68px;
+    color: rgb(201, 208, 213);
+}
+.dom-index{
+    margin-left: 78%;
+    margin-top: -66px;
+    color: rgb(201, 208, 213);
+    
+}
+
+/*----------------------------------------------------------*/
+
+.striped-table{
+        height: 1150px;
+        width: 90%;
+        margin: -150px 0px 0px 60px;
+        border: 0px solid rgb(142, 140, 142);
+        background-color: hwb(60 96% 2%);
+        font-family: sans-serif;
+        border-radius: 5px;
+        
+}
+.table-logo-column{
+    text-align: right;
+    padding-right: 1px;
+    padding-left: 50px;
+}
+.table-name-column{
+    text-align: left;
+}
+.tr{
+    border-collapse: separate;
+    border: 0.5px solid rgb(122, 116, 122); 
+    border-spacing: 25px 50px;
+}
+.th{
+    height: 40px;
+    font-size: 13.5px;
+    font-family: Helvetica;
+    color: rgb(137, 137, 135);
+    border: 0.1px rgb(194, 190, 194); 
+}
+.td{
+    height: 40px;
+    font-size: 12px;
+    border: 0.5px solid rgb(209, 213, 214); 
+}
+
+/*----------------------------------------------------------*/
+
+
+.footer-image{
+    height: 270px;
+    width: 100%;
+}
